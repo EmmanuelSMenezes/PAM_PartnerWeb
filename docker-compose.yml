@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  react_pam_admin:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:80
+    #environment:
+    #  - REACT_APP_URL_MS_AUTH=http://143.244.209.29:5000
+    image: react_pam_partner
+    container_name: react_pam_partner_container
