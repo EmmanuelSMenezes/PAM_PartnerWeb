@@ -1,4 +1,4 @@
-# PAM_PartnerWeb
+# 🌐 PAM_PartnerWeb
 
 <div align="center">
 
@@ -7,131 +7,124 @@
 [![Material-UI](https://img.shields.io/badge/Material--UI-5.0-0081CB?style=for-the-badge&logo=material-ui)](https://mui.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker)](https://www.docker.com/)
 
-**Aplicacao web moderna e responsiva para a Plataforma PAM**
+**Aplicação web moderna e responsiva para a Plataforma PAM**
 
-[Demo](#demo) â€¢ [Documentacao](#documentacao) â€¢ [Instalacao](#instalacao) â€¢ [Contribuicao](#contribuicao)
+[🚀 Demo](#demo) • [📖 Documentação](#documentacao) • [🛠️ Instalação](#instalacao) • [🤝 Contribuição](#contribuicao)
 
 </div>
 
 ---
 
-## Sobre o Projeto
+## 📋 Sobre o Projeto
 
-Portal web dedicado aos parceiros/prestadores de servico da plataforma PAM. Interface especializada para gerenciamento de perfil profissional, visualizacao de pedidos, agenda de servicos, historico financeiro, comunicacao com clientes, upload de documentos e metricas de performance.
+**Portal web dedicado aos parceiros/prestadores** de serviço da plataforma PAM. Interface especializada para gerenciamento de perfil profissional, visualização de pedidos, agenda de serviços, histórico financeiro, comunicação com clientes, upload de documentos e métricas de performance.
 
-### Principais Funcionalidades
+### 🎯 Principais Funcionalidades
 
-- **Perfil Profissional**: Gestao completa de dados e certificacoes
-- **Agenda**: Calendario inteligente de agendamentos
-- **Pedidos**: Visualizacao e gestao de solicitacoes
-- **Financeiro**: Comissoes, pagamentos e relatorios
-- **Comunicacao**: Chat direto com clientes
-- **Documentos**: Upload e gestao de certificados
-- **Performance**: Metricas e avaliacoes
-- **Especialidades**: Gestao de areas de atuacao
-- **Mobile-First**: Otimizado para dispositivos moveis
-- **Notificacoes**: Alertas de novos pedidos e mensagens
+- 👤 **Perfil Profissional**: Gestão completa de dados e certificações
+- 📅 **Agenda**: Calendário inteligente de agendamentos
+- 📋 **Pedidos**: Visualização e gestão de solicitações
+- 💰 **Financeiro**: Comissões, pagamentos e relatórios
+- 💬 **Comunicação**: Chat direto com clientes
+- 📄 **Documentos**: Upload e gestão de certificados
+- 📊 **Performance**: Métricas e avaliações
+- 🎯 **Especialidades**: Gestão de áreas de atuação
+- 📱 **Mobile-First**: Otimizado para dispositivos móveis
+- 🔔 **Notificações**: Alertas de novos pedidos e mensagens
 
-## Tecnologias
+## 🚀 Tecnologias
 
 ### Frontend Framework
 - **[Next.js 13](https://nextjs.org/)** - Framework React com SSR/SSG
 - **[React 18](https://reactjs.org/)** - Biblioteca de interface
-- **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estatica
+- **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estática
 
 ### UI/UX
 - **[Material-UI (MUI)](https://mui.com/)** - Biblioteca de componentes
 - **[Emotion](https://emotion.sh/)** - CSS-in-JS
-- **[React Hook Form](https://react-hook-form.com/)** - Gerenciamento de formularios
+- **[React Hook Form](https://react-hook-form.com/)** - Gerenciamento de formulários
 
-## Pre-requisitos
+## 📦 Pré-requisitos
 
-- **[Node.js 18+](https://nodejs.org/)** (versao LTS recomendada)
+- **[Node.js 18+](https://nodejs.org/)** (versão LTS recomendada)
 - **[Yarn](https://yarnpkg.com/)** ou **[npm](https://www.npmjs.com/)** (gerenciador de pacotes)
-- **[Git](https://git-scm.com/)** (controle de versao)
+- **[Git](https://git-scm.com/)** (controle de versão)
 
-## Instalacao
+## 🛠️ Instalação
 
-### 1. Clone o Repositorio
+### 1️⃣ Clone o Repositório
 
-`ash
+```bash
 git clone https://github.com/EmmanuelSMenezes/PAM_PartnerWeb.git
 cd PAM_PartnerWeb
-`
+```
 
-### 2. Instalar Dependencias
+### 2️⃣ Instalar Dependências
 
-`ash
+```bash
 # Usando Yarn (recomendado)
 yarn install
 
 # Ou usando npm
 npm install
-`
+```
 
-### 3. Configuracao do Ambiente
+### 3️⃣ Configuração do Ambiente
 
-`ash
+```bash
 cp .env.example .env.local
-`
+```
 
-### 4. Executar em Desenvolvimento
+### 4️⃣ Executar em Desenvolvimento
 
-`ash
+```bash
 yarn dev
 # ou
 npm run dev
-`
+```
 
-### 5. Verificar Instalacao
+### 5️⃣ Verificar Instalação
 
-Acesse http://localhost:8027 para ver a aplicacao rodando.
+Acesse `http://localhost:8027` para ver a aplicação rodando.
 
-## Docker
+## 🐳 Docker
 
-`ash
+```bash
 # Build
 docker build -t pam_partnerweb .
 
 # Run
 docker run -p 8027:8027 pam_partnerweb
-`
+```
 
-## Build de Producao
+## 🧪 Testes
 
-`ash
-yarn build
-yarn start
-`
-
-## Testes
-
-`ash
+```bash
 yarn test
-`
+```
 
-## Contribuicao
+## 🤝 Contribuição
 
 1. Fork o projeto
-2. Crie uma branch (git checkout -b feature/nova-funcionalidade)
-3. Commit suas mudancas (git commit -m 'feat: nova funcionalidade')
-4. Push para a branch (git push origin feature/nova-funcionalidade)
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+3. Commit suas mudanças (`git commit -m 'feat: nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
 
-## Licenca
+## 📄 Licença
 
-Este projeto esta sob a licenca **MIT**. Veja [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença **MIT**. Veja [LICENSE](LICENSE) para mais detalhes.
 
-## Suporte
+## 🆘 Suporte
 
-- **Email**: suporte@pam.com
-- **Issues**: [GitHub Issues](https://github.com/EmmanuelSMenezes/PAM_PartnerWeb/issues)
+- **📧 Email**: suporte@pam.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/EmmanuelSMenezes/PAM_PartnerWeb/issues)
 
 ---
 
 <div align="center">
 
-**PAM - Plataforma de Agendamento de Manutencao**  
-*Desenvolvido com amor pela equipe PAM*
+**PAM - Plataforma de Agendamento de Manutenção**
+*Desenvolvido com ❤️ pela equipe PAM*
 
 </div>
